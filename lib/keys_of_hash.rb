@@ -3,7 +3,7 @@ class Hash
     # code goes here
     hash = {}
     array = []
-     aruments.each do |argument|
+     arguments.each do |argument|
       if hash[key] == argument
        array.push(key)
       end
