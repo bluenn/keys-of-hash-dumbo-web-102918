@@ -3,11 +3,13 @@ class Hash
     # code goes here
     hash = {}
     array = []
-    key = hash.key(arguments)
+    hash.select do |argument|
+      key = hash.key(argument)
     #key = hash.select do |key, value|
      #value == argument
-    #end
-    array.push(key)
+     array.push(key)
+      end
+    #array.push(key)
     array
   end
 end
