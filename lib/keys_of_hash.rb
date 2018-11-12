@@ -3,8 +3,8 @@ class Hash
     # code goes here
     hash = {}
     array = []
-     hash.each do |key, value|
-      if value == arguments
+     hash.each do |key, argument|
+      if hash[key] == argument
        array.push(key)
       end
      end
