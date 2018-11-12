@@ -5,7 +5,8 @@ class Hash
     array = []
     key = hash.select do |key, value|
      value == argument
+     array.push(key)
     end
-    array.push(key)
+    array
   end
 end
