@@ -3,11 +3,9 @@ class Hash
     # code goes here
     hash = {}
     array = []
-    hash.each do |key, argument|
-      if hash[key] == argument
-       array.push(key)
-      end
-     end
-     array
+    key = hash.select |key, value|
+     value == argument  
+    end
+    array.push(key)
   end
 end
