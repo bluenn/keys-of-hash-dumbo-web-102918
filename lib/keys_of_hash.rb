@@ -1,10 +1,10 @@
 class Hash
   def keys_of(*arguments)
     # code goes here
-    hash = {}
+    #hash = {}
     array = []
      arguments.each do |argument|
-      if hash[key] == argument
+      if argument[key] == argument
        array.push(key)
       end
      end
