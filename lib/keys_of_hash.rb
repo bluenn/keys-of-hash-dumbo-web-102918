@@ -9,4 +9,3 @@ class Hash
      final
   end
 end
-
