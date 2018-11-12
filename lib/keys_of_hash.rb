@@ -3,7 +3,7 @@ class Hash
     # code goes here
     hash = {}
     array = []
-    key = hash.key(argument)
+    key = hash.key(arguments)
     #key = hash.select do |key, value|
      #value == argument
     #end
