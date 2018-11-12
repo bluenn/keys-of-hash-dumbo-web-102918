@@ -4,7 +4,7 @@ class Hash
     hash = {}
     array = []
     key = hash.select |key, value|
-     value == argument  
+     value == argument
     end
     array.push(key)
   end
