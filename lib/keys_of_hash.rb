@@ -1,8 +1,9 @@
 class Hash
   def keys_of(*arguments)
     # code goes here
-     final = array.select do |key, arguments|
-       if array[key] == arguments
+    
+     final = self.select do |key, arguments|
+       if self[key] == arguments
          key
         end
       end
