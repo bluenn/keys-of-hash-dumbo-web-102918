@@ -7,6 +7,7 @@ class Hash
      value == argument
      array.push(key)
     end
+    puts key
     array
   end
 end
