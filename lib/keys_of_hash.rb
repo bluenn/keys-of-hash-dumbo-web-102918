@@ -1,7 +1,6 @@
 class Hash
   def keys_of(*arguments)
     # code goes here
-    hash = {}
     array = []
     hash.select do |argument|
       key = hash.key(argument)
