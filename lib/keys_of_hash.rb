@@ -3,9 +3,10 @@ class Hash
     # code goes here
     hash = {}
     array = []
-    key = hash.select do |key, value|
-     value == argument
-    end
+    key = hash.key(argument)
+    #key = hash.select do |key, value|
+     #value == argument
+    #end
     array.push(key)
     array
   end
